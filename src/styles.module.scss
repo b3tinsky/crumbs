@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+.cardHeader {
+    font-family: 'Fugaz One', cursive;
+}
+
+.header {
+    text-align: center;
+    font-size: 5rem;
+    color: orange;
+    text-shadow: -5px 0px 0px rgb(255, 83, 83);
+}
+
+.revealBackground {
+    background-color: rgb(245, 229, 195);
+}
+
+.price {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Shrikhand', cursive;
+    color: white;
+    text-shadow: -5px 0px 0px rgb(0, 0, 0);
+    padding: 25% 0;
+}
+
+.instrucciones {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Fugaz One', cursive;
+    padding: 3% 10%;
+    border: 5px solid black;
+    color: orange;
+    border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+    .instrucciones {
+        font-size: 1.5rem;
+    }
+}
