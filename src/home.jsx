@@ -24,7 +24,6 @@ export class Home extends Component {
           Crumbs
         </h1> */}
         <Header block>
-
           <h1
             className={styles.header}
             style={{ fontFamily: "'Shrikhand', cursive" }}
@@ -39,7 +38,7 @@ export class Home extends Component {
             </p>
         </Container>
         
-        <Grid container stackable columns={2} style={{paddingTop: '3%'}}>
+        <Grid container stackable columns={1} style={{paddingTop: '3%'}}>
           <Grid.Column>
             <Card fluid>
               <Reveal animated="move" className={styles.revealBackground}>
@@ -53,25 +52,6 @@ export class Home extends Component {
               <Card.Content>
                 <Card.Header textAlign="center">
                   <h1 className={styles.cardHeader}>Basque Burnt Cheesecake</h1>
-                </Card.Header>
-              </Card.Content>
-            </Card>
-          </Grid.Column>
-          <Grid.Column>
-            <Card fluid>
-              <Reveal animated="move" className={styles.revealBackground}>
-                <Reveal.Content visible>
-                  <Image src={BCCP} />
-                </Reveal.Content>
-                <Reveal.Content hidden>
-                  <h1 className={styles.price}>$ 29</h1>
-                </Reveal.Content>
-              </Reveal>
-              <Card.Content>
-                <Card.Header textAlign="center">
-                  <h1 className={styles.cardHeader}>
-                    Pieza Basque Burnt Cheesecake
-                  </h1>
                 </Card.Header>
               </Card.Content>
             </Card>
