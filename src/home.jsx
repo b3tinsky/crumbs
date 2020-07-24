@@ -9,7 +9,7 @@ import {
 } from "semantic-ui-react";
 import styles from "./styles.module.scss";
 import BCC from './Images/BasqueCheesecake.jpg'
-import BCCP from './Images/BasqueCheesecakePiece.jpg'
+// import BCCP from './Images/BasqueCheesecakePiece.jpg'
 export class Home extends Component {
   render() {
     return (
