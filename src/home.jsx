@@ -5,20 +5,18 @@ import Product from './Components/Product';
 export class Home extends Component {
   render() {
     return (
-      <div>
-        <Header block>
+      <div className={styles.homeBg}>
+        <Header block style={{backgroundColor: "black"}}>
           <h1
             className={styles.header}
             style={{ fontFamily: "'Shrikhand', cursive" }}
           >
-            Crumbs
+            Menu
           </h1>
         </Header>
         <Container>
             <p className={styles.instrucciones}>
-                    Si algo se te antoja, mandame un mensaje a <span style={{ color: 'black'}}>8180798541</span> diciendome que te gustaria que te prepare, y tu direccion para que te lo lleve ;)
-                    Por el momento solo acepto pagos en efectivo.
-                    (Hacer click en imagen para ver precios)
+                    Pedidos al <span style={{ color: 'black'}}>8180798541</span>. 1 Dia de anticipo. <br></br>(Hacer click en imagen para ver precios)
             </p>
         </Container>
         
