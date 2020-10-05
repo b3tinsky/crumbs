@@ -23,10 +23,10 @@ export class Home extends Component {
         <Grid container stackable columns={2} style={{paddingTop: '3%'}}>
           <Grid.Column>
             <Product price={'$200'} name={'Basque Burnt Cheesecake'} image={require('./Images/BasqueCheesecake.jpg')} />
-            <Product price={'Agotado'} name={'Eclair'} image={require('./Images/Eclair.jpg')} />
+            <Product price={'Proximamente'} name={'Eclair'} image={require('./Images/Eclair.jpg')} />
           </Grid.Column>
           <Grid.Column>
-            <Product price={'Agotado'} name={'Rol de Canela'} image={require('./Images/CinnamonRoll.jpg')} />
+            <Product price={'Proximamente'} name={'Rol de Canela'} image={require('./Images/CinnamonRoll.jpg')} />
           </Grid.Column>
         </Grid>
       </div>
