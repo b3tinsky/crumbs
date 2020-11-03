@@ -28,7 +28,7 @@ export class Home extends Component {
               image={require("./Images/BasqueCheesecake.jpg")}
             />
             <Product
-              price={"Proximamente"}
+              price={"5 x $100"}
               name={"Eclair"}
               image={require("./Images/Eclair.jpg")}
             />
